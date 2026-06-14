@@ -1,5 +1,5 @@
 /**
- * Date: 2026-04-28
+ * Date: 2026-06-14
  * Description: DRM key extraction for research and educational purposes.
  * Source: https://github.com/hyugogirubato/KeyDive
  */
@@ -28,12 +28,10 @@ const Level = {
 // Backward compatibility with the modern equivalent implemented since frida 17
 // https://frida.re/news/2025/05/17/frida-17-0-0-released/
 /*
-readS8 = readShort
-readU8 = readUShort
-readS16 = readInt
-readU16 = readUInt
-readS32 = readFloat
-readU32 = readDouble
+readS8/readU8   = readByte/readUByte
+readS16/readU16 = readShort/readUShort
+readS32/readU32 = readInt/readUInt
+readS64/readU64 = readLong/readULong
 
 console.log(hexdump(address, {
     offset: 0,
