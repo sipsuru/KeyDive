@@ -891,6 +891,7 @@ const hookLibrary = (name, dynamic) => {
 
             // Provisioning Interception
             } else if (['_oecc49', '_lcc49'].some(n => funcName === n)) {
+                // NOTE: Causes crashes on older specific devices; manually disable the hook to fix it
                 OEMCrypto_ProvisioningMethod(funcAddr);
             } else if (['_oecc12', '_lcc12', '_oecc95', '_lcc95'].some(n => funcName === n)) {
                 // Key derivation via keybox provisioning
