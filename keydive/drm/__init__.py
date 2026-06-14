@@ -11,7 +11,7 @@ OEM_CRYPTO_API = (
     'qbjxtubz', 'qkfrcjtw', 'rbhjspoh', 'zgtjmxko', 'igrqajte', 'ofskesua', 'qllcoacg', 'pukctkiv', 'ehdqmfmd',
     'xftzvkwx', 'gndskkuk', 'wcggmnnx', 'kaatohcz', 'ktmgdchz', 'jkcwonus', 'ehmduqyt', 'vewtuecx', 'mxrbzntq',
     'isyowgmp', 'flzfkhbc', 'rtgejgqb', 'sxxprljw', 'ebxjbtxl', 'pcmtpkrj', 'uegpdzus', 'ncmqbmbc', 'faokrmio',
-    'uerbupkh', 'dirwetvo', 'kssgqibl', 'wzpmjqna', 'ulns'
+    'uerbupkh', 'dirwetvo', 'kssgqibl', 'wzpmjqna', 'wnfopbkt', 'ulns'
     # Add more as needed for different versions.
 )
 
@@ -42,6 +42,7 @@ CDM_VENDOR_API = (
     Vendor('android.hardware.drm@1.4-service.widevine', 31, (16, '16.1.0'), 'libwvhidl.so'),
     Vendor('android.hardware.drm-service.widevine', 33, (17, '17.0.0'), 'libwvaidl.so'),
     Vendor('android.hardware.drm-service.widevine', 34, (18, '18.0.0'), 'android.hardware.drm-service.widevine')
+    # TODO: Add support for Android 17 (SDK 37) (-rikers)
 )
 
 # https://github.com/kaltura/kaltura-device-info-android/blob/master/app/src/main/java/com/kaltura/kalturadeviceinfo/Collector.java#L317
